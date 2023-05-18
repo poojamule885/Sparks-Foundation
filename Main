@@ -1,0 +1,12 @@
+package com.pooja;
+
+public class Main
+{
+public static void main(String args[])
+{
+Account PoojasAccount=new Account(Number:"12345",Balance:0.0,Name:"Pooja",Email:"pooja@xyz.com",PhoneNumber:"12121");
+
+PoojasAccount.DepositMoney(DepositedMoney:100);
+PoojasAccount.WithDrawMoney(WithdrawalMoney:200);
+
+
